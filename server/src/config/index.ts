@@ -15,4 +15,14 @@ export default {
    * Your favorite port
    */
   port: parseInt(process.env.PORT as string, 10) as number,
+
+  /**
+   * Open AI Key
+   */
+  openAiKey: process.env.OPENAI_API_KEY as string,
+
+  /**
+   * redis URL
+   */
+  redisUrl: process.env.REDIS_URL as string,
 };
