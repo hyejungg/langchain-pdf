@@ -1,15 +1,12 @@
 <template>
     <div class="home">
         <div>
-            <i
-                class="my-4 fa-solid fa-circle-plus fa-4x"
-                @click="showChatView"
-            />
+            <i class="my-4 fa-solid fa-circle-plus fa-4x" @click="goChatView" />
         </div>
         <div>
             <i
                 class="my-4 fa-regular fa-comment-dots fa-4x"
-                @click="showEmbeddingView"
+                @click="goEmbeddingView"
             />
         </div>
     </div>
@@ -21,10 +18,10 @@ export default Vue.extend({
     name: "HomeView",
     components: {},
     methods: {
-        showChatView() {
+        goChatView() {
             this.$router.push({ name: "chat" });
         },
-        showEmbeddingView() {
+        goEmbeddingView() {
             this.$router.push({ name: "documents" });
         },
     },
