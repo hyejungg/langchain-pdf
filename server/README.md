@@ -29,7 +29,7 @@ GET /
 Welcome to Langchain-pdf!!
 ```
 
-POST /file/embedding
+POST /api/v1/file/embedding
 
 - content type: multipart/form-data
 - files
@@ -50,7 +50,7 @@ POST /file/embedding
 }
 ```
 
-POST /query/chat
+POST /api/v1/query/chat
 
 - content type: application/json
 - body
