@@ -14,9 +14,9 @@
 }
 
 .setting {
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-left: 10rem;
     margin-right: 10rem;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 </style>

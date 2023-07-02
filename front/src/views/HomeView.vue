@@ -1,12 +1,15 @@
 <template>
     <div class="home">
         <div>
-            <i class="my-4 fa-solid fa-circle-plus fa-4x" @click="goChatView" />
+            <i
+                class="my-4 fa-solid fa-circle-plus fa-4x"
+                @click="goEmbeddingView"
+            />
         </div>
         <div>
             <i
                 class="my-4 fa-regular fa-comment-dots fa-4x"
-                @click="goEmbeddingView"
+                @click="goChatView"
             />
         </div>
     </div>
@@ -14,6 +17,7 @@
 
 <script lang="ts">
 import Vue from "vue";
+
 export default Vue.extend({
     name: "HomeView",
     components: {},
