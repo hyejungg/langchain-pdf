@@ -1,5 +1,10 @@
 # langchain-pdf front with Vue.js
 
+## required
+
+-   typescript
+-   node 18.x
+
 ## Project setup
 
 ```
